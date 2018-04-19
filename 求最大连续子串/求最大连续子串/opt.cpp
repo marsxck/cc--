@@ -97,8 +97,8 @@ opt* opt::instance = nullptr;
 int main()
 {
 	opt* p = opt::GetOpt();
-	int arr[] = { 1,2 };
-	p->find(arr, 0, 1);
+	int arr[] = { 1,-2,3,10,-4,7,2,-5 };
+	p->find(arr, 0, 7);
 	cout << p->max<<""<<p->begin<<""<<p->end<<"" << endl;
 
 }
