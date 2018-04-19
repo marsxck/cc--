@@ -78,7 +78,7 @@ void team()
 	//}
 	//printf("%.2f\t", learnself*0.1);
 	//printf("\n");
-	a[2] = a[8] = a[18] = a[22] = a[29] = a[46] = dteam*0.1;
+	a[2] = a[8] = a[15] = a[22] = a[29] = a[46] = dteam*0.1;
 	a[36] = a[41] = dteam*0.2;
 
 }
@@ -96,8 +96,8 @@ void middle()
 	//printf("\n");
 	a[4] = mi*0.21;
 	a[10] = mi*0.28;
-	a[17] = mi * 18;
-	a[24] = mi * 16;
+	a[17] = mi *0.18;
+	a[24] = mi * 0.16;
 	a[31] = mi*0.07;
 	a[48] = mi*0.1;
 }
@@ -137,7 +137,7 @@ void test()
 	a[12] = s*0.25;
 	a[19] =a[26]= s*0.2;
 	a[33] = s*0.25;
-	a[38] = s * 38;
+	a[38] = s * 0.1;
 }
 void main()
 {
@@ -155,7 +155,7 @@ void main()
 		i++;
 		for (int f = 0; f < 50; f++)
 		{
-			printf("第%d个数据：%.2f\t", f, a[f]);
+			printf("第%d个数据：%.2f\n", f, a[f]);
 		}
 		printf("\n");
 	}

@@ -1,8 +1,8 @@
 ﻿  源.cpp
-c:\users\administrator\desktop\张老师\pro\calc\calc\源.cpp(9): warning C4101: “i”: 未引用的局部变量
-c:\users\administrator\desktop\张老师\pro\calc\calc\源.cpp(28): warning C4101: “i”: 未引用的局部变量
-c:\users\administrator\desktop\张老师\pro\calc\calc\源.cpp(47): warning C4101: “i”: 未引用的局部变量
-c:\users\administrator\desktop\张老师\pro\calc\calc\源.cpp(65): warning C4101: “i”: 未引用的局部变量
-c:\users\administrator\desktop\张老师\pro\calc\calc\源.cpp(127): warning C4101: “i”: 未引用的局部变量
-  calc.vcxproj -> C:\Users\Administrator\Desktop\张老师\pro\calc\Debug\calc.exe
-  calc.vcxproj -> C:\Users\Administrator\Desktop\张老师\pro\calc\Debug\calc.pdb (Full PDB)
+e:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\calc\源.cpp(9): warning C4101: “i”: 未引用的局部变量
+e:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\calc\源.cpp(28): warning C4101: “i”: 未引用的局部变量
+e:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\calc\源.cpp(47): warning C4101: “i”: 未引用的局部变量
+e:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\calc\源.cpp(65): warning C4101: “i”: 未引用的局部变量
+e:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\calc\源.cpp(127): warning C4101: “i”: 未引用的局部变量
+  calc.vcxproj -> E:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\Debug\calc.exe
+  calc.vcxproj -> E:\study\c c++\复习\cc--\统计完成度--张老师-传感器\calc\Debug\calc.pdb (Full PDB)
