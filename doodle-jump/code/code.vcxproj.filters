@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OnceTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackHole.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OnceTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackHole.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="code.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\photo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\tableone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\left.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Right.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cnumber9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\movetableone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\helicopter.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\monster2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\oncetable.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\monster1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\black_hole.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rocket.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\2222.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\jup.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\fly.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\ROCKET.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
