@@ -1,0 +1,5 @@
+﻿  construct.cpp
+e:\study\offer\answer\construct\construct\construct\construct.cpp(11): warning C4091: “typedef ”: 没有声明变量时忽略“Node”的左侧
+e:\study\offer\answer\construct\construct\construct\construct.cpp(33): warning C4101: “i”: 未引用的局部变量
+  construct.vcxproj -> E:\study\offer\answer\construct\construct\Debug\construct.exe
+  construct.vcxproj -> E:\study\offer\answer\construct\construct\Debug\construct.pdb (Full PDB)

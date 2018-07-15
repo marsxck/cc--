@@ -9,6 +9,10 @@ public:
 	{
 	
 	}
+	~Cmyp()
+	{
+		delete m_p;
+	}
 	T* operator->()
 	{
 		return m_p;

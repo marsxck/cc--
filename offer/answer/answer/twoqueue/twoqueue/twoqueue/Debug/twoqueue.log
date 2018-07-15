@@ -1,0 +1,4 @@
+﻿  twoqueuemakestack.cpp
+e:\study\offer\answer\twoqueue\twoqueue\twoqueue\twoqueuemakestack.cpp(47): warning C4715: “MyStack<int>::pop”: 不是所有的控件路径都返回值
+  twoqueue.vcxproj -> E:\study\offer\answer\twoqueue\twoqueue\Debug\twoqueue.exe
+  twoqueue.vcxproj -> E:\study\offer\answer\twoqueue\twoqueue\Debug\twoqueue.pdb (Full PDB)
