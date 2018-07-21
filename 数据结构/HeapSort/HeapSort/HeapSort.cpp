@@ -1,45 +1,43 @@
 #include<iostream>
-void Adjust(int arr[],int nLength,int Root)
+void Adjust(int arr[],int nLength,int root)
 {
-	int max;
-	for (int i=Root*2+1;i<=nLength-1;i=Root*2+1)
+	int min;
+	for (min = 2 * root + 1; min <= nLength - 1; min = 2 * root + 1)
 	{
-		max = i;
-		//两个子节点比较，选出最大值
-		if (i + 1 <= nLength - 1)
+		if (min + 1 <= nLength - 1)
 		{
-			if (arr[i] < arr[i + 1])
-				max = i + 1;
+			if (arr[min] > arr[min + 1])
+			{
+				min = min + 1;
+			}
 		}
-		if (arr[Root]<arr[max])
+		if (arr[root] > arr[min])
 		{
-			arr[Root] = arr[Root] ^ arr[max];
-			arr[max] = arr[Root] ^ arr[max];
-			arr[Root] = arr[Root] ^ arr[max];
-			Root = max;
+			arr[root] = arr[root] ^ arr[min];
+			arr[min] = arr[root] ^ arr[min];
+			arr[root] = arr[root] ^ arr[min];
+			root = min;
 		}
 		else
 		{
 			break;
 		}
 	}
+
 }
 int main()
 {
-	int arr[] = { 2,1,5,4,3 };
-	//初始化堆,从下-上
-	int nLength = sizeof(arr) / sizeof(arr[0]);
-	for (int i = nLength / 2 - 1; i >= 0; i--)
+	int a[] = { 1,3,6,77,2 };
+	int length = sizeof(a) / sizeof(a[0]);
+	for (int i = length / 2 - 1; i >= 0; i--)
 	{
-		Adjust(arr, nLength, i);
+		Adjust(a,length,i);
 	}
-	//堆排序
-	for (int i=nLength-1;i>0;i--)
+	for (int i = length - 1; i >= 1; i--)
 	{
-		arr[0] = arr[0] ^ arr[i];
-		arr[i] = arr[0] ^ arr[i];
-		arr[0] = arr[0] ^ arr[i];
-		Adjust(arr,i,0);
+		a[0] = a[0] ^ a[i];
+		a[i] = a[0] ^ a[i];
+		a[0] = a[0] ^ a[i];
+		Adjust(a, i, 0);
 	}
-	return 0;
 }
