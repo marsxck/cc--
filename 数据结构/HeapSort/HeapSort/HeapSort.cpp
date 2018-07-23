@@ -25,9 +25,17 @@ void Adjust(int arr[],int nLength,int root)
 	}
 
 }
+int *fun(int a)
+{
+	static int ret;
+	ret = a;
+	return &ret;
+}
 int main()
 {
 	int a[] = { 1,3,6,77,2 };
+	int i;
+	for (i = 0; i < 10; i++);
 	int length = sizeof(a) / sizeof(a[0]);
 	for (int i = length / 2 - 1; i >= 0; i--)
 	{
@@ -40,4 +48,5 @@ int main()
 		a[0] = a[0] ^ a[i];
 		Adjust(a, i, 0);
 	}
-}
+	std::cout << *fun(2) - *fun(1);
+ }
