@@ -1,0 +1,14 @@
+﻿cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  stdafx.cpp
+D:\vs2015\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  D:\vs2015\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  md5.cpp
+  TCPMediator.cpp
+  TCPNet.cpp
+  0914Disk.cpp
+  0914DiskDlg.cpp
+  DlgMain.cpp
+  正在生成代码...
+  0914Disk.vcxproj -> E:\study\c c++\复习\cc--\0914Disk\Debug\0914Disk.exe
+  0914Disk.vcxproj -> E:\study\c c++\复习\cc--\0914Disk\Debug\0914Disk.pdb (Full PDB)

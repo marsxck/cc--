@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mysql">
+      <UniqueIdentifier>{e3bed566-4331-4f88-a91e-74ec1656e6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{5b94e24b-c5f0-4a8f-b02e-ab19eda8e9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packdef">
+      <UniqueIdentifier>{d0c33edd-ac82-452f-9d99-9dd303284f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{912044c5-4674-4fdf-9ff0-b2766c5e299c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\CMySql.cpp">
+      <Filter>mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\IOCP.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mediator\TCPMediator.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mysql\CMySql.h">
+      <Filter>mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\INet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\IOCP.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mediator\IMediator.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mediator\TCPMediator.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packdef\Packdef.h">
+      <Filter>packdef</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

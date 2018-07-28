@@ -73,7 +73,7 @@ bool IOCP::InitNetWork()
 		UnInitNetWork();
 		return false;
 	}
-	//将m_sock 交给完成端口管理
+	//将m_sock 交给完成端口管
 	CreateIoCompletionPort((HANDLE)m_sock, m_hIOCP, m_sock, 0);
 
 	//投递接收连接的请求

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{db331a98-888e-44fd-b409-70dcddd74888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="中介者">
+      <UniqueIdentifier>{2d2f7b2b-12c5-4cf2-9430-b1e40f4579cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="协议包">
+      <UniqueIdentifier>{4fa06595-cad8-4c57-9544-4433eea15d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{035dc4f9-bad5-4989-9cb4-542b52f6f614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0914Disk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0914DiskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\INet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\TCPNet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mediator\IMediator.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mediator\TCPMediator.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packdef\Packdef.h">
+      <Filter>协议包</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MD5\md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPPWTL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0914Disk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0914DiskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\TCPNet.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mediator\TCPMediator.cpp">
+      <Filter>中介者</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MD5\md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="0914Disk.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My0914Disk.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\0914Disk.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
