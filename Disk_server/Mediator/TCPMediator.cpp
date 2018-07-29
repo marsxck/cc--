@@ -37,7 +37,7 @@ TCPMediator::~TCPMediator()
 }
 
 
-//bool TCPMediator::open() 
+bool TCPMediator::open() 
 {
 
 	if(!m_sql.ConnectMySql("localhost","root","a8494552","disk"))
