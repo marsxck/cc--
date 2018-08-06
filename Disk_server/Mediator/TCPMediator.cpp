@@ -495,7 +495,7 @@ inner join t_user_file on t_file.t_fileid = t_user_file.t_fileid \
 where t_filename = '%s' and t_userid = %lld",psrr->m_szFileName,psrr->m_userid);
 
 	m_sql.SelectMySql(szsql,1,lststr);
-
+	 
 	if(lststr.size() >0)
 	{
 		string strfileid = lststr.front();

@@ -83,6 +83,7 @@
 //注册请求协议\登录请求
 typedef int PackType;
 struct STRU_REGISTERLOGIN_RQ
+
 {
 	 STRU_REGISTERLOGIN_RQ()
 	 {

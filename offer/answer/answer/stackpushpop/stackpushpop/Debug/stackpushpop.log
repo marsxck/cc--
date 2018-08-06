@@ -1,0 +1,5 @@
+﻿  源.cpp
+e:\study\c c++\复习\cc--\offer\answer\answer\stackpushpop\stackpushpop\源.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+e:\study\c c++\复习\cc--\offer\answer\answer\stackpushpop\stackpushpop\源.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+  stackpushpop.vcxproj -> E:\study\c c++\复习\cc--\offer\answer\answer\stackpushpop\Debug\stackpushpop.exe
+  stackpushpop.vcxproj -> E:\study\c c++\复习\cc--\offer\answer\answer\stackpushpop\Debug\stackpushpop.pdb (Full PDB)
