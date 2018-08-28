@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<list>
 using namespace std;
 class Singleton {
 	Singleton()
@@ -164,10 +165,92 @@ vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
 	}
 	return res;
 }
+void Reverse(string&str, int start, int end)
+{
+	char temp;
+	while (start<end)
+	{
+		temp = str[start];
+		str[start] = str[end];
+		str[end] = temp;
+		start++;
+		end--;
+	}
+}
+string ReverseSentence(string str) {
+	//找到空格
+	if (str.length() == 0)
+		return str;
+	int index = 0;
+	vector<int> pos;
+	while (index<str.length())
+	{
+		if (str[index] == ' ')
+			pos.push_back(index);
+		index++;
+	}
+	if (pos.size() == 0)
+	{
+		return str;
+	}
+	//翻转每个单词
+	int start = 0;
+	int end = 0;
+	for (int i = 0; i<pos.size() - 1; i++)
+	{
+		end = pos[i] - 1;
+		Reverse(str, start, end);
+		start = pos[i] + 1;
+	}
+	//翻转最后一个单词
+	Reverse(str, start, str.length() - 1);
+	Reverse(str, 0, str.length() - 1);
+	return str;
+}
+int LastRemaining_Solution(int n, int m)
+{
+	//链表储存
+	if (n<1)
+		return 0;
+	list<int> ls;
+	for (int i = 0; i<n; i++)
+	{
+		ls.push_back(i);
+	}
+	//模拟环形链表
+	auto ite = ls.begin();
+	while (ls.size() != 1)
+	{
+		for (int i = 1; i<m; i++)
+		{
+			ite++;
+			if (ite == ls.end())
+				ite = ls.begin();
+		}
+		ite = ls.erase(ite);
+		if (ite == ls.end())
+			ite = ls.begin();
+	}
+	return ls.front();
+}
+int res = 0;
+int counte = 1;
+class Add {
+public:
+	Add()
+	{
+		res += counte;
+		counte++;
+	}
+};
+int Sum_Solution(int n) {
+	Add* p = new Add[n];
+	delete[]p;
+	return res;
+}
 int main()
 {
-	vector<int> arr = { 4,5,1,6,2,7,3,8 };
-	
-	vector<int> res= GetLeastNumbers_Solution(arr, 4);
+	Sum_Solution(5);
+
 
 }

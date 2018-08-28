@@ -1,4 +1,6 @@
 ﻿  test.cpp
-e:\study\c c++\复习\cc--\offer\answer\answer\test\test\test.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+e:\study\c c++\复习\cc--\offer\answer\answer\test\test\test.cpp(154): warning C4018: “<”: 有符号/无符号不匹配
+e:\study\c c++\复习\cc--\offer\answer\answer\test\test\test.cpp(186): warning C4018: “<”: 有符号/无符号不匹配
+e:\study\c c++\复习\cc--\offer\answer\answer\test\test\test.cpp(199): warning C4018: “<”: 有符号/无符号不匹配
   test.vcxproj -> E:\study\c c++\复习\cc--\offer\answer\answer\test\Debug\test.exe
   test.vcxproj -> E:\study\c c++\复习\cc--\offer\answer\answer\test\Debug\test.pdb (Full PDB)
